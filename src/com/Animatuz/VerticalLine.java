@@ -10,7 +10,7 @@ public class VerticalLine {
 
     }
 
-    public boolean isPointRight(double x) {
+    boolean isPointRight(double x) {
         return x > x0;
     }         //Формула для расчёта вертикальных линий
 }

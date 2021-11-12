@@ -6,7 +6,7 @@ import static com.Animatuz.Main.*;
 
 public class Picture {
 
-    public static SimpleColor getColor(double x, double y) {
+    static SimpleColor getColor(double x, double y) {
 
         if (!VL2.isPointRight(x) && VL1.isPointRight(x) && !HL2.isPointAboveLine(y) && HL3.isPointAboveLine(y)) {
             return SimpleColor.GRAY;

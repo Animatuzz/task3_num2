@@ -31,28 +31,22 @@ public class Main {
 
         }
 
-        double x, y, testingAxis = 0;
+        double x, y;
 
-        printWelcomeMessage();
+        System.out.println("Введите по очереди значения осей X и Y ");
 
-        x = readAxis(testingAxis);
-        y = readAxis(testingAxis);
+        x = readAxis();
+        y = readAxis();
 
         printColorForPoint(x, y);
 
     }
 
-    public static void printWelcomeMessage() {
-
-        System.out.println("Введите по очереди значения осей X и Y ");
-
-    }
-
-    public static double readAxis(double testingAxis) {
+    static double readAxis() {
 
         Scanner scanner = new Scanner(System.in);             //Ввод данных о точке с клавиатуры
 
-        testingAxis = scanner.nextDouble();
+        double testingAxis = scanner.nextDouble();
 
         axisTest(testingAxis);
 
@@ -60,7 +54,7 @@ public class Main {
 
     }
 
-    public static void axisTest(double x){
+    static void axisTest(double x){
 
         if (x > 10) {
 
@@ -71,7 +65,7 @@ public class Main {
 
     }
 
-    public static void printColorForPoint(double x, double y) {
+    static void printColorForPoint(double x, double y) {
 
         System.out.println("X: " + x);
         System.out.println("Y: " + y);

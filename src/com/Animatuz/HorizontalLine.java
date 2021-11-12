@@ -10,7 +10,7 @@ public class HorizontalLine {
 
     }
 
-    public boolean isPointAboveLine(double y) {
+    boolean isPointAboveLine(double y) {
         return y > y0;
     }         //Формула для расчёта горизонтальной линии
 }

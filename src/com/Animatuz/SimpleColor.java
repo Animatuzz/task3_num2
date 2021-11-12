@@ -1,6 +1,6 @@
 package com.Animatuz;
 
-public enum SimpleColor {
+enum SimpleColor {
 
     GRAY,
     ORANGE,             //Список используемых цветов

@@ -2,7 +2,7 @@ package com.Animatuz;
 
 public class TestCase {
 
-    public boolean ColorTest(Picture picture) {
+    boolean ColorTest(Picture picture) {
         if (picture.getColor(0, 0) != SimpleColor.ORANGE) {
             System.out.println("x=0 y=0 ERROR");
             return false;
