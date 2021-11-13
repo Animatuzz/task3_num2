@@ -5,9 +5,7 @@ public class VerticalLine {
     public double x0;
 
     public VerticalLine(double x0) {
-
         this.x0 = x0;
-
     }
 
     boolean isPointRight(double x) {
