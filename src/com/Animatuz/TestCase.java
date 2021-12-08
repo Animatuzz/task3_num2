@@ -11,7 +11,7 @@ public class TestCase {
             System.out.println("x=1.5 y=0 ERROR");
             return false;
         }
-        if (picture.getColor(0, 4) != SimpleColor.BLUE) {          //Проверка работоспособности определения цветов
+        if (picture.getColor(0, 4) != SimpleColor.BLUE) {
             System.out.println("x=0 y=4 ERROR");
             return false;
         }
